@@ -43,28 +43,28 @@ Para tener acceso al menú BIOS en este dispositivo debemos acceder pulsando F1 
 
 Una vez dentro del menú BIOS de nuestro ordenador, debemos de desplazarnos a la sección de **"Security"** nos aparecerá en segundo lugar listado la opción de habilitar una contraseña de arranque **"User password"**, una vez pulsemos sobre esta, nos mostrará otra nueva pequeña ventana en la que introducimos una nueva contraseña y su confirmación. Una vez realizado el ajuste nos dirigimos a la pestaña **"Exit"** y guardamos los cambios realizados, a partir de ahora, a cada inicio nos requerirá la contraseña que previamente asignamos. Esto es más seguro pero no es lo más ideal a la hora de trabajar de forma remota con equipos mediante **"Wake On Lan"** ya que tendremos que estar de forma presencial delante del equipo para introducir la contraseña si en algún caso el equipo se apagase.
 
-![Power On BIOS](image/power_on-lenovo.jpg)
+![Power On BIOS](image/lenovo/power_on-lenovo.jpg)
 
 ## Contraseña de administrador
 
 En este apartado que se encuentra justo en primer lugar antes de la anterior opción mencionada, tenemos la posibilidad de habilitar otra opción de seguridad que se trata de algo similar a la anterior, pero esta nos ofrece el integrar una contraseña de administrador para evitar que cualquier otra persona que desconozca la contraseña, tenga la posibilidad de modificar los ajustes de nuestra BIOS. El proceso de habilitación es el mismo, nos dirigimos a la pestaña de **"Security"** y en la primera opción **"Administrator password"** pulsamos intro sobre esta y nos requerira una nueva contraseña y confirmación, guardamos y salimos de nuestro menú BIOS.
 
-![Admin password](image/admin_pass-lenovo.jpg)
+![Admin password](image/lenovo/admin_pass-lenovo.jpg)
 
 ## Arranques externos
 
 Para evitar arranques de programas externos al equipo mediante USB booteables, o SO operativos grabados en CD y pudiendo ser arrancados desde la CD-ROM o incluso mediante Red, todos estos parámetros podremos desactivarlos en el apartado de **"Boot"**, simplemente con pulsar "Enter" sobre ellos nos ofrecerá la opción de desactivarlos o activarlos.
 
-![Arranques externos](image/arranques_externos-lenovo.jpg)
+![Arranques externos](image/lenovo/arranques_externos-lenovo.jpg)
 
 ## Orden de arranque
 
 En esta misma pestaña un poco más abajo nos encontramos la opción de **"EFI"** desde donde podremos priorizar el arranque desde el dispositivo que tengamos con mayor preferencia, este se ordena de arriba a hacia abajo, teníendo como primera prioridad el lugar número 1 y como último el final de la lista.
 
-![Orden de arranque](image/orden_arranque-lenovo.jpg)
+![Orden de arranque](image/lenovo/orden_arranque-lenovo.jpg)
 
 ## Otras opciones de Seguridad
 
 Cómo otras opciones de seguridad tenemos la opción de **"Secure Boot"** que se encuentra en la pestaña de **"Security"**, esta opción lo que evita es poder iniciar en nuestro equipo cualquier software que no esté firmado y por lo general rechazar el arranque a todo aquel sistema operativo ajeno a Windows, existen distribuciones de Linux que están adaptadas a este tipo de casos para poder iniciarse sin problemas.
 
-(FOTO)
+![Secure boot](image/lenovo/secure_boot-lenovo.jpg)

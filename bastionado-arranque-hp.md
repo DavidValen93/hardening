@@ -43,28 +43,28 @@ Para tener acceso al menú BIOS en este dispositivo debemos acceder pulsando F10
 
 Una vez dentro del menú BIOS de nuestro ordenador, debemos de desplazarnos a la sección de **"Seguridad"** nos aparecerá en segundo lugar listado la opción de habilitar una contraseña de arranque, una vez pulsemos sobre esta, nos mostrará otra nueva pequeña ventana en la que introducimos una nueva contraseña y su confirmación. Una vez realizado el ajuste pulsando de nuevo F10 podremos salir de nuestra BIOS y guardar los cambios realizados, a partir de ahora, a cada inicio nos requerirá la contraseña que previamente asignamos. Esto es más seguro pero no es lo más ideal a la hora de trabajar de forma remota con equipos mediante **"Wake On Lan"** ya que tendremos que estar de forma presencial delante del equipo para introducir la contraseña si en algún caso el equipo se apagase.
 
-![Power On BIOS](image/power_on-hp.jpg)
+![Power On BIOS](image/hp/power_on-hp.jpg)
 
 ## Contraseña de administrador
 
 En este apartado que se encuentra justo en primer lugar antes de la anterior opción mencionada, tenemos la posibilidad de habilitar otra opción de seguridad que se trata de algo similar a la anterior, pero esta nos ofrece el integrar una contraseña de administrador para evitar que cualquier otra persona que desconozca la contraseña, tenga la posibilidad de modificar los ajustes de nuestra BIOS. El proceso de habilitación es el mismo, nos dirigimos a la pestaña de **"Seguridad"** y en la primera opción **"Contraseña de administrador"** pulsamos intro sobre esta y nos requerira una nueva contraseña y confirmación, con F10 guardamos y salimos de nuestro menú BIOS.
 
-![Admin password](image/admin_pass-hp.jpg)
+![Admin password](image/hp/admin_pass-hp.jpg)
 
 ## Arranques externos
 
 Para evitar arranques de programas externos al equipo mediante USB booteables, o SO operativos grabados en CD y pudiendo ser arrancados desde la CD-ROM o incluso mediante Red, todos estos parámetros podremos desactivarlos en el apartado de **"Opciones de arranque"**, simplemente con pulsar "Enter" sobre ellos nos ofrecerá la opción de desactivarlos o activarlos.
 
-![Arranques externos](image/arranques_externos-hp.jpg)
+![Arranques externos](image/hp/arranques_externos-hp.jpg)
 
 ## Orden de arranque
 
 En esta misma pestaña un poco más abajo nos encontramos la opción de **"Orden de arranque UEFI"** desde donde podremos priorizar el arranque desde el dispositivo que tengamos con mayor preferencia, este se ordena de arriba a hacia abajo, teníendo como primera prioridad el lugar número 1 y como último el final de la lista.
 
-![Orden de arranque](image/orden_arranque-hp.jpg)
+![Orden de arranque](image/hp/orden_arranque-hp.jpg)
 
 ## Otras opciones de Seguridad
 
 Cómo otras opciones de seguridad tenemos la opción de **"Secure Boot"**, esta opción lo que evita es poder iniciar en nuestro equipo cualquier software que no esté firmado y por lo general rechazar el arranque a todo aquel sistema operativo ajeno a Windows, existen distribuciones de Linux que están adaptadas a este tipo de casos para poder iniciarse sin problemas.
 
-![Secure boot](image/secure_boot-hp.jpg)
+![Secure boot](image/hp/secure_boot-hp.jpg)
