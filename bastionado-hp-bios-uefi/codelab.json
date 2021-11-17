@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-11-17T10:46:06+01:00",
+  "id": "bastionado-hp-bios-uefi",
+  "duration": 0,
+  "title": "Bastionado de arranque del sistema",
+  "summary": "Bastionado de arranque del sistema HP.",
+  "source": "bastionado-arranque-hp.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "bios",
+    "uefi",
+    "hp"
+  ],
+  "tags": [
+    "web"
+  ],
+  "url": "bastionado-hp-bios-uefi"
+}
