@@ -55,7 +55,7 @@ En este apartado que se encuentra justo en primer lugar antes de la anterior opc
 
 Para evitar arranques de programas externos al equipo mediante USB booteables, o SO operativos grabados en CD y pudiendo ser arrancados desde la CD-ROM o incluso mediante Red, todos estos parámetros podremos desactivarlos en el apartado de **"Boot"**, simplemente con pulsar "Enter" sobre ellos nos ofrecerá la opción de desactivarlos o activarlos.
 
-![Arranques externos](image/lenovo/arranques_externos-lenovo.png)
+![Arranques externos](image/lenovo/arranque_externo-lenovo.png)
 
 ## Orden de arranque
 
